@@ -3,7 +3,9 @@ import React from 'react'
 const homeClient = () => {
 
     return (
-        <div>homeClient</div>
+        <div>
+            home Client
+        </div>
     )
 }
 export default homeClient
