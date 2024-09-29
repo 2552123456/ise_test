@@ -21,13 +21,28 @@ function HeaderClient() {
     nav("/forgotPass");
   }
   const onVerifyCode = () => {
-    nav("/VerifyCode");
+    nav("/verifyCode");
   }
   const onHomePage_new = () => {
-    nav("/HomePage_new");
+    nav("/homePage_new");
   }
   const onHomePage_old = () => {
-    nav("/HomePage_old");
+    nav("/homePage_old");
+  }
+  const onChooseLevel = () => {
+    nav("/chooseLevel");
+  }
+  const onInstructions = () => {
+    nav("/instructions");
+  }
+  const onFirstTest = () => {
+    nav("/firstTest");
+  }
+  const onSecondTest = () => {
+    nav("/secondTest");
+  }
+  const onThirdTest = () => {
+    nav("/thirdTest");
   }
   const onSignUp = () => {
     nav("/SignUp");
@@ -44,6 +59,11 @@ function HeaderClient() {
       <button onClick={onVerifyCode}>Verify Code</button>
       <button onClick={onHomePage_new}>HomePage new</button>
       <button onClick={onHomePage_old}>HomePage old</button>
+      <button onClick={onChooseLevel}>Choose level</button>
+      <button onClick={onInstructions}>Instructions</button>
+      <button onClick={onFirstTest}>First test</button>
+      <button onClick={onSecondTest}>Second test</button>
+      <button onClick={onThirdTest}>Third test</button>
       <button onClick={onHomeClick}>Home</button>
       <button onClick={onAdmin}>Admin</button>
     </div>
