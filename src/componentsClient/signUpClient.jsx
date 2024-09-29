@@ -3,7 +3,9 @@ import React from 'react'
 function SignUpClient() {
 
   return (
-    <div>SignUp Client</div>
+    <div>SignUp Client aa
+
+    </div>
   )
 }
 
