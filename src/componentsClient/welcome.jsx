@@ -130,6 +130,7 @@ import Col from 'react-bootstrap/Col';function Welcome() {
             <footer className="text-center border border-light p-3 w-100 bg-dark bg-opacity-75" style={{ position: 'fixed', bottom: 0 }}>
                 Some text and links to social media
             </footer>
+            {/*  */}
         </div>
 
     );
